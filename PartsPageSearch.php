@@ -20,7 +20,7 @@
     $searchterm = addslashes($searchterm);
   }
   
-  $db = new mysqli('localhost', 'haightk1_administrator', 'NYE99xyzCPA', 'haightk1_ProjectDB');
+  $db = new mysqli('localhost', '', '', 'haightk1_ProjectDB');
 
   if (mysqli_connect_errno()) {
      echo 'Error: Could not connect to database.  Please try again later.';
